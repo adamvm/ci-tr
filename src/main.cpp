@@ -1,8 +1,11 @@
 #include <iostream>
 
+#include <hello/hello.h>
+
 using std::cout;
 using std::endl;
+using hello::greetings;
 
 int main() {
-    cout << "Hello World!" << endl;
+    greetings(cout) << endl;
 }
